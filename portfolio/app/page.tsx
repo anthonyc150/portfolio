@@ -46,7 +46,7 @@ export default function Home() {
             </div>
             <div className="section-container">
               <h1 className="font-semibold text-2xl">About</h1>
-              <p className="font-normal text-lg pt-2 pr-70">Hi! I'm Anthony, and I am a Computer Science student at the University at Buffalo.
+              <p className="font-normal text-lg pt-2">Hi! I'm Anthony, and I am a Computer Science student at the University at Buffalo.
                 I love problem solving and have a passion for software engineering and data science. I'm actively expanding my skills through new
                 projects and opportunities.</p>
             </div>

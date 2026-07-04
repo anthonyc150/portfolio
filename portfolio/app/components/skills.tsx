@@ -14,7 +14,7 @@ export default function Skills(){
         <div id="Skills">
             <div className="section-container">
                 <h1 className="font-semibold text-2xl">Skills</h1>
-                <div className="flex flex-wrap gap-3 pt-4 pr-50">
+                <div className="flex flex-wrap gap-3 pt-4">
                     {skills.map ((skill) =>(
                         <span
                             key={skill.name}
