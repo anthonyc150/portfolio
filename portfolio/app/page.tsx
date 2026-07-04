@@ -1,6 +1,7 @@
 import Image from "next/image"
 import AnimatedContent from '@/app/components/verticalAni'
 import SideNav from '@/app/components/sideNav'
+import Skills from '@/app/components/skills'
 
 
 export default function Home() {
@@ -51,12 +52,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div id="Skills">
-          <div className="section-container">
-            <h1 className="font-semibold text-2xl">Skills</h1>
-            <p></p>
-          </div>
-        </div>
+        {/*skills has separated function in skills.tsx*/}
+        <Skills />
       </AnimatedContent>
     </main>
   )
