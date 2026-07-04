@@ -30,7 +30,7 @@ export default function SideNav(){
     }, [])
 
     return (
-    <nav className="fixed left-8 flex flex-col gap-6" style={{ top: '85%', transform: 'translateY(-50%)'}}>
+    <nav className="fixed left-8 flex flex-col gap-6" style={{ top: '50%', transform: 'translateY(-50%)'}}>
       {sections.map((section) => (
         <a
           key={section}
