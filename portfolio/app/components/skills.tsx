@@ -7,6 +7,15 @@ const skills = [
     {name: "Next.js", logo: "/logos/next-dot-js-svgrepo-com.svg"},
     {name: "SQL", logo:"/logos/sql-svgrepo-com.svg"},
     {name: "Typescript", logo:"/logos/typescript-svgrepo-com.svg"},
+    {name: "C", logo: "/logos/c-svgrepo-com.svg"},
+    {name: "Numpy", logo: "/logos/numpy-svgrepo-com.svg"},
+    {name: "Pandas", logo: "/logos/pandas-svgrepo-com.svg"},
+    {name: "PHP", logo: "/logos/php-svgrepo-com.svg"},
+    {name: "PostgreSQL", logo: "/logos/postgresql-svgrepo-com.svg"},
+    {name: "Linux", logo: "/logos/linux-svgrepo-com.svg"},
+    {name: "Supabase", logo: "/logos/supabase.svg"},
+    {name: "Git", logo: "/logos/git.svg"},
+    {name: "Github", logo:"/logos/github.svg"}
 
 ]
 export default function Skills(){
@@ -18,7 +27,7 @@ export default function Skills(){
                     {skills.map ((skill) =>(
                         <span
                             key={skill.name}
-                            className="flex items-center gap-2 px-5 py-1 rounded-full border border-gray-400 text-sm font-medium shadow-sm"
+                            className="flex items-center gap-1 px-5 py-1 rounded-full border border-gray-400 text-sm font-medium shadow-sm"
                         >
                             <Image
                                 src={skill.logo}
