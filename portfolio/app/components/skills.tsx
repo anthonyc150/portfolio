@@ -27,11 +27,11 @@ export default function Skills(){
     return(
         <div id="Skills">
             <div className="section-container">
-                <h1 className="font-semibold text-2xl pb-3">Skills</h1>
+                <h1 className="font-semibold text-xl uppercase pb-2">Skills</h1>
                 <div 
-                    style={{height: '1.5px', background: 'linear-gradient(to right, transparent 0%, #FF8400 15%, #FF8400 80%, transparent 100%)', marginBottom: '2rem'}}> 
+                    style={{height: '1.5px', background: 'linear-gradient(to right, transparent 0%, #FF8400 15%, #FF8400 80%, transparent 100%)', marginBottom: '1rem'}}> 
                 </div>
-                <p style={{color:'#FF8400', opacity: 0.8}} className="font-medium text-sm uppercase tracking-widest text-gray-500 pb-2">Languages</p>
+                <p style={{color:'#FF8400', opacity: 0.8}} className="font-medium text-sm uppercase tracking-widest text-gray-500">Languages</p>
                 <div className="flex flex-wrap gap-3 pt-2">
                     {languages.map ((language) =>(
                         <span
@@ -48,7 +48,7 @@ export default function Skills(){
                         </span> 
                     ))}
                 </div>
-                <p className="text-lg> pt-4">Frameworks</p>
+                <p style={{color:'#FF8400', opacity: 0.8}} className="font-medium text-sm uppercase tracking-widest text-gray-500 pt-4">Frameworks</p>
                 <div className="flex flex-wrap gap-3 pt-2">
                     {frameworks.map ((framework) =>(
                         <span
@@ -65,7 +65,7 @@ export default function Skills(){
                         </span> 
                     ))}
                 </div>
-                <p className="text-lg pt-4">Tools</p>
+                <p style={{color:'#FF8400', opacity: 0.8}} className="font-medium text-sm uppercase tracking-widest text-gray-500 pt-4">Tools</p>
                 <div className="flex flex-wrap gap-3 pt-2">
                     {tools.map ((tool) =>(
                         <span
