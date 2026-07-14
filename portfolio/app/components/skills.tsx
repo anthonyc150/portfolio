@@ -6,7 +6,9 @@ const languages = [
     {name: "SQL", logo:"/logos/sql-svgrepo-com.svg"},
     {name: "Typescript", logo:"/logos/typescript-svgrepo-com.svg"},
     {name: "C", logo: "/logos/c-svgrepo-com.svg"},
-    {name: "PHP", logo: "/logos/php-svgrepo-com.svg"}
+    {name: "PHP", logo: "/logos/php-svgrepo-com.svg"},
+    {name: "HTML", logo: "/logos/HTML5.svg"},
+    {name: "CSS", logo: "/logos/CSS3.svg"}
 ]
 
 const frameworks =[
@@ -14,12 +16,15 @@ const frameworks =[
     {name: "Next.js", logo: "/logos/next-dot-js-svgrepo-com.svg"},
     {name: "Numpy", logo: "/logos/numpy-svgrepo-com.svg"},
     {name: "Pandas", logo: "/logos/pandas-svgrepo-com.svg"},
-    {name: "PostgreSQL", logo: "/logos/postgresql-svgrepo-com.svg"}
+]
+
+const databases =[
+    {name: "PostgreSQL", logo: "/logos/postgresql-svgrepo-com.svg"},
+    {name: "Supabase", logo: "/logos/supabase.svg"}
 ]
 
 const tools =[
     {name: "Linux", logo: "/logos/linux-svgrepo-com.svg"},
-    {name: "Supabase", logo: "/logos/supabase.svg"},
     {name: "Git", logo: "/logos/git.svg"},
     {name: "Github", logo:"/logos/github.svg"}
 ]
@@ -48,7 +53,7 @@ export default function Skills(){
                         </span> 
                     ))}
                 </div>
-                <p style={{color:'#FF8400', opacity: 0.8}} className="font-medium text-sm uppercase tracking-widest text-gray-500 pt-4">Frameworks</p>
+                <p style={{color:'#FF8400', opacity: 0.8}} className="font-medium text-sm uppercase tracking-widest text-gray-500 pt-5">Frameworks</p>
                 <div className="flex flex-wrap gap-3 pt-2">
                     {frameworks.map ((framework) =>(
                         <span
@@ -65,7 +70,24 @@ export default function Skills(){
                         </span> 
                     ))}
                 </div>
-                <p style={{color:'#FF8400', opacity: 0.8}} className="font-medium text-sm uppercase tracking-widest text-gray-500 pt-4">Tools</p>
+                <p style={{color:'#FF8400', opacity: 0.8}} className="font-medium text-sm uppercase tracking-widest text-gray-500 pt-5">Databases</p>
+                <div className="flex flex-wrap gap-3 pt-2">
+                    {databases.map ((database) =>(
+                        <span
+                            key={database.name}
+                            className="flex items-center gap-1 px-5 py-1 rounded-full border border-gray-400 text-sm font-medium shadow-sm"
+                        >
+                            <Image
+                                src={database.logo}
+                                alt={database.name}
+                                width={16}
+                                height={16}>
+                            </Image>
+                            {database.name}
+                        </span> 
+                    ))}
+                </div>
+                <p style={{color:'#FF8400', opacity: 0.8}} className="font-medium text-sm uppercase tracking-widest text-gray-500 pt-5">Tools</p>
                 <div className="flex flex-wrap gap-3 pt-2">
                     {tools.map ((tool) =>(
                         <span
