@@ -54,6 +54,11 @@ export default function Home() {
         </div>
         {/*skills has separated function in skills.tsx*/}
         <Skills />
+        <div id="Projects">
+          <div className="section-container">
+            <h1 className= "font-semibold text-2xl">Projects</h1>
+          </div>
+        </div>
       </AnimatedContent>
     </main>
   )
