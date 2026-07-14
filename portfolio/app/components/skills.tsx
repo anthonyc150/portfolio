@@ -5,7 +5,7 @@ const languages = [
     {name: "Javascript", logo: "/logos/javascript-svgrepo-com.svg"},
     {name: "SQL", logo:"/logos/sql-svgrepo-com.svg"},
     {name: "Typescript", logo:"/logos/typescript-svgrepo-com.svg"},
-    {name: "C", logo: "/logos/c-svgrepo-com.svg"},
+    {name: "C", logo: "/logos/c.svg"},
     {name: "PHP", logo: "/logos/php-svgrepo-com.svg"},
     {name: "HTML", logo: "/logos/HTML5.svg"},
     {name: "CSS", logo: "/logos/CSS3.svg"}
