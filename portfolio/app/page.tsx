@@ -45,10 +45,13 @@ export default function Home() {
               </div>
             </div>
             <div className="section-container">
-              <h1 className="font-semibold text-2xl">About</h1>
-              <p className="font-normal text-lg pt-2">Hi! I'm Anthony, and I am a Computer Science student at the University at Buffalo.
+              <h1 className="font-semibold text-xl uppercase pb-2">About</h1>
+              <div 
+                style={{height: '1.5px', background: 'linear-gradient(to right, transparent 0%, #FF8400 15%, #FF8400 80%, transparent 100%)', marginBottom: '.5rem'}}> 
+              </div>
+              <p className="font-normal text-lg pt-1">Hi! I'm Anthony, and I am a Computer Science student at the University at Buffalo.
                 I love problem solving and have a passion for software engineering and data science. I'm actively expanding my skills through new
-                projects and opportunities.</p>
+                projects and opportunities. Currently I am intern at Mediacom Communications in the IP Developement team specifically working in their IP Lab.</p>
             </div>
           </div>
         </div>
