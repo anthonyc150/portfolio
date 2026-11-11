@@ -52,7 +52,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/*skills has separated function in skills.tsx*/}
+        {/*skills has separate function in skills.tsx*/}
         <Skills />
         <div id="Projects">
           <div className="section-container">
