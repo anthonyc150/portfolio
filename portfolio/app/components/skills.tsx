@@ -16,10 +16,11 @@ const frameworks =[
     {name: "Next.js", logo: "/logos/next-dot-js-svgrepo-com.svg"},
     {name: "Numpy", logo: "/logos/numpy-svgrepo-com.svg"},
     {name: "Pandas", logo: "/logos/pandas-svgrepo-com.svg"},
+    {name: "Scikit-learn", logo: "/logos/scikitlearn.svg"}
 ]
 
 const databases =[
-    {name: "PostgreSQL", logo: "/logos/postgresql-svgrepo-com.svg"},
+    {name: "PostgreSQL", logo: "/logos/postgresql.svg"},
     {name: "Supabase", logo: "/logos/supabase.svg"}
 ]
 
@@ -53,7 +54,7 @@ export default function Skills(){
                         </span> 
                     ))}
                 </div>
-                <p style={{color:'#FF8400', opacity: 0.8}} className="font-medium text-sm uppercase tracking-widest text-gray-500 pt-5">Frameworks</p>
+                <p style={{color:'#FF8400', opacity: 0.8}} className="font-medium text-sm uppercase tracking-widest text-gray-500 pt-5">Frameworks & libraries</p>
                 <div className="flex flex-wrap gap-3 pt-2">
                     {frameworks.map ((framework) =>(
                         <span
